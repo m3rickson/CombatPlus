@@ -1,5 +1,6 @@
-package io.github.m3rickson.CombatPlus.util;
+package io.github.m3rickson.combatplus.util;
 
+import io.github.m3rickson.combatplus.init.Items;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -12,7 +13,7 @@ import net.minecraftforge.fml.relauncher.Side;
 public class RegisterUtil {
 	
 	public static void registerAll(FMLPreInitializationEvent event) {
-		
+		registerItems(event, Items.iron_spear);
 	}
 	
 	private static void registerBlocks(FMLPreInitializationEvent event, Block...blocks) {
@@ -27,6 +28,11 @@ public class RegisterUtil {
 	}
 	
 	private static void registerItems(FMLPreInitializationEvent event, Item...items) {
-		
+		for(Item item : items) {
+			if(event.getSide() == Side.CLIENT) {
+				GameRegistry.register(item);
+				ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+			}
+		}
 	}
 }

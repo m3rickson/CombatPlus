@@ -1,9 +1,10 @@
-[19:05:14] [Client thread/INFO]: Setting user: Player813
-[19:05:21] [Client thread/INFO]: LWJGL Version: 2.9.4
-[19:05:23] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
-// You should try our sister game, Minceraft!
+[17:07:11] [Client thread/INFO]: Setting user: Player496
+[17:07:20] [Client thread/WARN]: Skipping bad option: lastServer:
+[17:07:20] [Client thread/INFO]: LWJGL Version: 2.9.4
+[17:07:22] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// I let you down. Sorry :(
 
-Time: 6/29/17 7:05 PM
+Time: 7/8/17 5:07 PM
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -18,30 +19,82 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_131, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 726849712 bytes (693 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	Memory: 759674216 bytes (724 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 20.19.15.4642' Renderer: 'Intel(R) HD Graphics 4400'
-[19:05:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Combat Plus, FMLFileResourcePack:Example Mod
-[19:05:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:05:34] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[19:05:34] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:05:34] [Thread-8/INFO]: OpenAL initialized.
-[19:05:34] [Sound Library Loader/INFO]: Sound engine started
-[19:05:43] [Client thread/INFO]: Created: 16x16 textures-atlas
-[19:05:44] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
-[19:05:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Combat Plus, FMLFileResourcePack:Example Mod
-[19:05:49] [Client thread/INFO]: SoundSystem shutting down...
-[19:05:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[19:05:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:05:50] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[19:05:50] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:05:50] [Thread-10/INFO]: OpenAL initialized.
-[19:05:50] [Sound Library Loader/INFO]: Sound engine started
-[19:05:57] [Client thread/INFO]: Created: 512x512 textures-atlas
-[19:06:00] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[19:06:07] [Client thread/INFO]: Stopping!
-[19:06:07] [Client thread/INFO]: SoundSystem shutting down...
-[19:06:07] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:07:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Combat Plus, FMLFileResourcePack:Example Mod
+[17:07:35] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:07:35] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[17:07:35] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:07:35] [Thread-8/INFO]: OpenAL initialized.
+[17:07:35] [Sound Library Loader/INFO]: Sound engine started
+[17:07:45] [Client thread/INFO]: Created: 16x16 textures-atlas
+[17:07:48] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
+[17:07:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Combat Plus, FMLFileResourcePack:Example Mod
+[17:07:55] [Client thread/INFO]: SoundSystem shutting down...
+[17:07:55] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:07:55] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:07:55] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[17:07:55] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:07:55] [Thread-10/INFO]: OpenAL initialized.
+[17:07:56] [Sound Library Loader/INFO]: Sound engine started
+[17:08:04] [Client thread/WARN]: Texture combatplus:textures/items/iron_spear.png with size 26x26 will have visual artifacts at mip level 4, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
+[17:08:04] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:08:07] [Client thread/WARN]: Skipping bad option: lastServer:
+[17:08:08] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[17:08:13] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:08:13] [Server thread/INFO]: Generating keypair
+[17:08:14] [Server thread/INFO]: Preparing start region for level 0
+[17:08:15] [Server thread/INFO]: Preparing spawn area: 0%
+[17:08:16] [Server thread/INFO]: Preparing spawn area: 26%
+[17:08:17] [Server thread/INFO]: Preparing spawn area: 91%
+[17:08:18] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:08:20] [Server thread/INFO]: Player496[local:E:07d7b5f6] logged in with entity id 399 at (-118.33670058245096, 72.0, 205.6813763785994)
+[17:08:20] [Server thread/INFO]: Player496 joined the game
+[17:08:21] [Server thread/INFO]: Saving and pausing game...
+[17:08:21] [Server thread/INFO]: Saving chunks for level 'ModTests'/Overworld
+[17:08:21] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5939350c[id=8f79be04-4db9-3980-ae1b-e87afab46d4e,name=Player496,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[17:08:22] [Server thread/INFO]: Saving chunks for level 'ModTests'/Nether
+[17:08:22] [Server thread/INFO]: Saving chunks for level 'ModTests'/The End
+[17:08:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2316ms behind, skipping 46 tick(s)
+[17:08:48] [Server thread/INFO]: Saving and pausing game...
+[17:08:48] [Server thread/INFO]: Saving chunks for level 'ModTests'/Overworld
+[17:08:49] [Server thread/INFO]: Saving chunks for level 'ModTests'/Nether
+[17:08:49] [Server thread/INFO]: Saving chunks for level 'ModTests'/The End
+[17:08:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4381ms behind, skipping 87 tick(s)
+[17:08:50] [Server thread/INFO]: Stopping server
+[17:08:50] [Server thread/INFO]: Saving players
+[17:08:50] [Server thread/INFO]: Player496 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[17:08:50] [Server thread/INFO]: Player496 left the game
+[17:08:50] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:08:50] [Server thread/INFO]: Saving worlds
+[17:08:50] [Server thread/INFO]: Saving chunks for level 'ModTests'/Overworld
+[17:08:50] [Server thread/INFO]: Saving chunks for level 'ModTests'/Nether
+[17:08:50] [Server thread/INFO]: Saving chunks for level 'ModTests'/The End
+[17:08:52] [Client thread/INFO]: Stopping!
+[17:08:52] [Client thread/INFO]: SoundSystem shutting down...
+[17:08:52] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

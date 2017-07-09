@@ -1,5 +1,6 @@
-package io.github.m3rickson.CombatPlus.proxy;
+package io.github.m3rickson.combatplus.proxy;
 
+import io.github.m3rickson.combatplus.util.RegisterUtil;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -27,6 +28,8 @@ public class CommonProxy {
         // registerFuelHandlers();
         // registerSimpleNetworking();
         // registerVillagers();
+    	
+    	RegisterUtil.registerAll(event);
     }
 
     public void init(FMLInitializationEvent event)

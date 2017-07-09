@@ -1,9 +1,9 @@
-package io.github.m3rickson.CombatPlus;
+package io.github.m3rickson.combatplus;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import io.github.m3rickson.CombatPlus.proxy.CommonProxy;
+import io.github.m3rickson.combatplus.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -26,8 +26,8 @@ public class CombatPlus {
 	public static CombatPlus instance;
 	
 	@SidedProxy(
-		      clientSide="io.github.m3rickson.CombatPlus.proxy.ClientProxy", 
-		      serverSide="io.github.m3rickson.CombatPlus.proxy.CommonProxy"
+		      clientSide="io.github.m3rickson.combatplus.proxy.ClientProxy", 
+		      serverSide="io.github.m3rickson.combatplus.proxy.CommonProxy"
 		    )
 	public static CommonProxy proxy;
 	
