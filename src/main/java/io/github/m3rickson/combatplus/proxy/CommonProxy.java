@@ -29,7 +29,7 @@ public class CommonProxy {
         // registerSimpleNetworking();
         // registerVillagers();
     	
-    	RegisterUtil.registerAll(event);
+    	// RegisterUtil.registerAll(event);
     }
 
     public void init(FMLInitializationEvent event)

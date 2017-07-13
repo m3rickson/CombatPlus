@@ -16,12 +16,13 @@ public class RegisterUtil {
 		registerItems(event, Items.iron_spear);
 	}
 	
+	
 	private static void registerBlocks(FMLPreInitializationEvent event, Block...blocks) {
 		for(Block block : blocks) {
 			final ItemBlock itemblock = new ItemBlock(block);
 			if(event.getSide() == Side.CLIENT) {
-				GameRegistry.register(block);
-				GameRegistry.register(itemblock, block.getRegistryName());
+				//GameRegistry.register(block);
+				//GameRegistry.register(itemblock, block.getRegistryName());
 				ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
 			}
 		}
@@ -30,7 +31,7 @@ public class RegisterUtil {
 	private static void registerItems(FMLPreInitializationEvent event, Item...items) {
 		for(Item item : items) {
 			if(event.getSide() == Side.CLIENT) {
-				GameRegistry.register(item);
+				//GameRegistry.register(item);
 				ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 			}
 		}
